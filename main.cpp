@@ -1,4 +1,5 @@
 #include <iostream>
+#include "FileReader.h"
 using namespace std;
 
 //Main menu function to print single or multiplayer and returns the user choice
