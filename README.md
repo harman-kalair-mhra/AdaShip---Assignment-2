@@ -4,6 +4,7 @@ AdaShip is a clone of the classic ‘Battleship’ game – as a default, AdaShi
 
 ## 1: Challenge Outline (academic standard: pass level detail: section required for pass)
 
+
 ```
 a. Summary and review of the problem, overall proposed solution.
 b. UML style diagram illustrating initial overall solution (linked to 1a)
@@ -12,6 +13,7 @@ c. Initial working plan, overall approach, development strategy and approach to 
 d. Analysis and decomposition of the overall problem into key ‘epic’ style tasks (linked to 1b, 1c).
 e. Initial object-oriented design ideas and plan of phased breakdown into smaller tasks (linked to 1d).
 ```
+a. AdaShip is a clone of the classic ‘Battleship’ game – as a default, AdaShip is a two-player, turn based game of sea warfare. The object of AdaShip is to try and sink all of the other player's boats before the opponent sinks all your ships. All of the opponent’s ships are somewhere placed on their board.  You try and hit them by calling out the coordinates of one of the squares on the board.  The opponent also tries to hit your ships by calling out coordinates. The board will record ‘hit’ or ‘miss’, if either player makes contact with the positions of the boats. Neither you nor the opponent can see the other's player’s board or their placed ships, therefore you must try to guess where their ships has been placed and attack accordingly. The game ends when one player wins by sinking all of their opponent’s boats.
 
 ## 2: Development (academic standard: merit level detail: section required for merit)
 
