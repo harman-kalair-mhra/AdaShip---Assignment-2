@@ -2,38 +2,30 @@
 
 AdaShip is a clone of the classic ‘Battleship’ game – as a default, AdaShip is a two-player, turn based game of sea warfare. You and an opponent each place a number of ships on your own board, and you then alternate turns "firing" torpedoes at each other’s ships. The game is won when one player has destroyed/sunk all of the other player’s ships.
 
-## 1: Challenge Outline (academic standard: pass level detail: section required for pass)
+# Table of Contents
 
+- [1. Challenge Outline](#1-challenge-outline)
+- [1.1. Summary](#-11-summary)
+- [1.2. Features](#-12-implemented-features)
+    + [1.2.1. One player v computer](#121-one-player-v-computer)
+    + [1.2.2. Two player game](#122-two-player-game)
+- [1.3. UML Diagram](#-13-uml-diagram)
+- [1.4. Flow Diagrams/Analysis](#-14-flow-diagram/analysis)
+- [1.5. Ideas and Development Plan](#-15-ideas-and-development-plan)
+- [1.6. Evaluation](#-16-evaluation)
 
-```
-a. Summary and review of the problem, overall proposed solution.
-b. UML style diagram illustrating initial overall solution (linked to 1a)
-c. Initial working plan, overall approach, development strategy and approach to quality (linked to 1a,
-1b).
-d. Analysis and decomposition of the overall problem into key ‘epic’ style tasks (linked to 1b, 1c).
-e. Initial object-oriented design ideas and plan of phased breakdown into smaller tasks (linked to 1d).
-```
-a. AdaShip is a clone of the classic ‘Battleship’ game – as a default, AdaShip is a two-player, turn based game of sea warfare. The object of AdaShip is to try and sink all of the other player's boats before the opponent sinks all your ships. All of the opponent’s ships are somewhere placed on their board.  You try and hit them by calling out the coordinates of one of the squares on the board.  The opponent also tries to hit your ships by calling out coordinates. The board will record ‘hit’ or ‘miss’, if either player makes contact with the positions of the boats. Neither you nor the opponent can see the other's player’s board or their placed ships, therefore you must try to guess where their ships has been placed and attack accordingly. The game ends when one player wins by sinking all of their opponent’s boats.
+## 1. Challenge Outline
 
-## 2: Development (academic standard: merit level detail: section required for merit)
+### 1.1. Summary
 
-```
-a. Adoption and use of ‘good’ standards (linked to 1a, 1b, 1c).
-b. Phase 1 development: tasks, code review and changes (linked to 1d,1e).
-c. ..repeated for each development phase.
-d. Phase n development: tasks, code review and changes (linked to 1d,1e).
-e. Ensuring quality through testing and resolving bugs (linked to 1a, 1b, 2a, 2b..2c).
-f. Reflection on key design challenges, innovations and how I solved them (with examples).
-```
+AdaShip is a clone of the classic ‘Battleship’ game – as a default, AdaShip is a two-player, turn based game of sea warfare. The object of AdaShip is to try and sink all of the other player's boats before the opponent sinks all your ships. All of the opponent’s ships are somewhere placed on their board.  You try and hit them by calling out the coordinates of one of the squares on the board.  The opponent also tries to hit your ships by calling out coordinates. The board will record ‘hit’ or ‘miss’, if either player makes contact with the positions of the boats. Neither you nor the opponent can see the other's player’s board or their placed ships, therefore you must try to guess where their ships has been placed and attack accordingly. The game ends when one player wins by sinking all of their opponent’s boats
 
-## 3: Evaluation (academic standard: distinction level detail: section required for distinction)
+### 1.2. Features
 
-```
-a. Analysis with embedded examples of key code refactoring, reuse, smells.
-b. Implementation and effective use of ‘advanced’ programming principles (with examples).
-c. Features showcase and embedded innovations (with examples) - opportunity to ‘highlight’ best bits.
-d. Improved targeting algorithm – research, design, implementation and tested confirmation (with
-examples).
-e. Reflective review, opportunities to improve and continued professional development.
-```
+#### 1.2.1. One player v computer
+#### 1.2.2. Two player
 
+### 1.3. UML Diagram
+### 1.4. Flow Diagrams/Analysis
+### 1.5. Ideas and Development Plan
+### 1.6. Evaluation
