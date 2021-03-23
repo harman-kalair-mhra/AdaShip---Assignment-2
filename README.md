@@ -166,6 +166,15 @@ This flow diagram is an example of how ‘Hit’ or ‘Miss’ will operate in t
 ![hit or miss](https://user-images.githubusercontent.com/56550789/112183072-cf885980-8bf5-11eb-86b5-d8056c8614e4.png)
 -
 
+#### Object-orientated Programming Consideration:
+
+In my development, I decided to use the Object-orientated programming approach. Object-oriented programming is a programming paradigm that is completely based on objects. The reason for this choice is reusability. It means reusing some facilities rather than building it again and again. This is done with the use of a class. We can use it ‘n’ number of times as per our need. 
+
+As shown in UML diagram, I have created numerous classes. There is a class for the ```Board```, this is where the board gets generated. Methods are called inside the class to generate rows and columns. Class ```Player``` has been created, this is where a function is used to fire coordinate on enemy board, which also includes a reset function that resets the player board.
+
+Class ```Ship``` has also been created. The Ship class contains information on how many squares are remaining or have they been destroyed. ```main``` works as game controller, where all the header files are imported and called, this also includes the main menu of the game.
+
+
 ### 1.5. Ideas and Development Plan
 
 Discovery phase essential for project which involves a process of scoping, collecting and analysing information about the program or project. It allows getting a well-rounded and in-depth understanding of the goals, scope, and limitations. Therefore, using resources such as; stack overflow, w3 school and other coding sites was crucial, as it gave me many ideas for the solution to the problem.
