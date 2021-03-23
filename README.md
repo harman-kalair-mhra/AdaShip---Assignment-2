@@ -40,5 +40,15 @@ This flow diagram is an example of how ‘Player vs Computer’ will flow in thi
 ![player vs player](https://user-images.githubusercontent.com/56550789/112163442-f1c5ab80-8be4-11eb-8525-7e66cdf6a91d.png)
 
 This flow diagram is an example of how ‘Player vs Player will flow in this AdaShip game. This diagram is very similar to ‘Player vs Computer’. This will begin by the player placing their ships. If all ships are placed the program will continue and give the Player 2 a chance to place their Ships. However, if all ships are NOT placed, this will keep looping, until both Player 1 and Player 2 ships are placed. Game code starts. If Player 1 or Player 2’s turn, they will enter ‘Coordinates to Attack’. If it’s a ‘HIT’ and ‘All Ships are sunk?’, winner will be displayed and the program will end. However, if either has not ‘HIT’ any target, this will loop back to switching turns and entering coordinates. If the ‘Player’ did hit but not all ships are sunk, this will also loop back to the ‘Turn’ and ‘Entering coordinates’.
+
+#### Config file - Flow Diagram:
+![config file](https://user-images.githubusercontent.com/56550789/112165400-9e545d00-8be6-11eb-89ac-f0623735ceb0.png)
+
+This flow diagram is an example of how the data will be read from a config file. This data includes; size of the board, names of the board and size of the boats. The flow is as follows; begins to READ config.ini and if the config file exists, Menu will be displayed. However, if the program is unable to read the config or doesn’t exist, program will exit.
+
+#### Menu - Flow Diagram:
+![menu](https://user-images.githubusercontent.com/56550789/112168062-e2486180-8be8-11eb-9491-611b205c5796.png)
+
+This flow diagram is an example of a Menu item, which will be displayed at the start of the program. The flow is as follows; the Player is shown menu items between 1 and 3. 1 is One player v computer, choice 2 is Two player game and 3 is to QUIT. If Player selects 1 or 2, game code will run. If Player selects 3, program will end. However, if the end user selects any other value, error message is displayed and looped back to Displaying menu until valid input has been entered.
 ### 1.5. Ideas and Development Plan
 ### 1.6. Evaluation
