@@ -27,5 +27,12 @@ AdaShip is a clone of the classic ‘Battleship’ game – as a default, AdaShi
 
 ### 1.3. UML Diagram
 ### 1.4. Flow Diagrams/Analysis
+
+
+![All diagrams](https://user-images.githubusercontent.com/56550789/112152354-1e27fa80-8bda-11eb-8ced-9c45465105d2.png)
+
+
+
+
 ### 1.5. Ideas and Development Plan
 ### 1.6. Evaluation
