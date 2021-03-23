@@ -165,5 +165,13 @@ This flow diagram is an example of how ‘Hit’ or ‘Miss’ will operate in t
 
 ![hit or miss](https://user-images.githubusercontent.com/56550789/112183072-cf885980-8bf5-11eb-86b5-d8056c8614e4.png)
 -
+
 ### 1.5. Ideas and Development Plan
+
+Discovery phase essential for project which involves a process of scoping, collecting and analysing information about the program or project. It allows getting a well-rounded and in-depth understanding of the goals, scope, and limitations. Therefore, using resources such as; stack overflow, w3 school and other coding sites was crucial, as it gave me many ideas for the solution to the problem.
+
+As mentioned previously, my chosen development strategy was agile or iterative. Perhaps the biggest advantage Agile development practices bring to development, in general is its emphasis on responding to change and focus on working on changes that matter when they matter. 
+
+For example, I decided to list out some of the main requirements of the program and began developing algorithms and flow diagrams accordingly. By creating these flow diagrams and algorithms, gave me a head start and a logical view point of the program, thanks to the Agile approach.
+
 ### 1.6. Evaluation
