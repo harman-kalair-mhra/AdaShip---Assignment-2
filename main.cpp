@@ -19,7 +19,9 @@ int mainMenu() {
 
 	cout << "*********************\n";
 	int choice;
-	cout << "1. One player v computer game\n2. Two player game\n3. One player v computer (salvo) game.\n4. Two player game (salvo) game\n5. One player v computer (hidden mines) game\n6. Two player game (hidden mines) game\n7. Computer v computer (hidden mines)\n8. Quit\n";
+	cout << "1. One player v computer game\n2. Two player game\n3. Quit\n";
+
+  // One player v computer (salvo) game.\n4. Two player game (salvo) game\n5. One player v computer (hidden mines) game\n6. Two player game (hidden mines) game\n7. Computer v computer (hidden mines)\n
 	cout << "*********************\n";
 	cin >> choice;
 	return choice;
@@ -171,13 +173,17 @@ void multiplayer(Player &P1, Player &P2) {
 
 //This function based on the multiplayer or single player choice by user, ask user to place ships automatically
 // or manually and call respected function to fill board with ships based on user input
-void run() {
+int run() {
 	srand(time(NULL));
 	int ret = mainMenu();
-	while (ret < 1 || ret > 2) {
+	while (ret < 1 || ret > 3) {
 		cout << "Incorrect Choice!!\n";
 		ret = mainMenu();
 	}
+
+  if (ret == 3) {
+    return false;
+  }
 
 	if (ret == 1) {
 		int autoPlace = 0;
@@ -227,7 +233,10 @@ void run() {
 		multiplayer(P1, P2);
 
 	}
+  return true;
 }
+
+
 
 int main() {
 	run();
