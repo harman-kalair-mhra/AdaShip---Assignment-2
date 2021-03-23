@@ -56,7 +56,9 @@ This flow diagram is an example of a Menu item, which will be displayed at the s
 
 This flow diagram is an example of a validation phase, when coordinates are entered. The flow is as follows; Game code starts. If Player 1 or Player 2’s turn, they will enter ‘Coordinates to Attack’. Then the program will check, if entered coordinates are Valid. If entered coordinates are invalid, Player is taken back to the ‘Enter Coordinates’ screen to retry. This validation check will continue to loop until valid coordinates has been entered and then the program will continue to the next phase in the flow.
 
-#### Hit or Miss - Flow Diagram
+#### Hit or Miss - Flow Diagram:
+![hit or miss](https://user-images.githubusercontent.com/56550789/112183072-cf885980-8bf5-11eb-86b5-d8056c8614e4.png)
 
+This flow diagram is an example of how ‘Hit’ or ‘Miss’ will operate in this game program. The flow is as follows; Begins by Players placing their Ships. Player 1 will guess the position of the opponent’s ships. This will return ‘Hit’ or ‘Miss’. Then Player 2 guesses the position of the opponent’s ships. This will return ‘Hit’ or ‘Miss’.  This will keep looping, until there are NO remaining ships. Winner will be displayed and program will end.
 ### 1.5. Ideas and Development Plan
 ### 1.6. Evaluation
