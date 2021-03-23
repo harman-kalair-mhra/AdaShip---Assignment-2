@@ -50,5 +50,13 @@ This flow diagram is an example of how the data will be read from a config file.
 ![menu](https://user-images.githubusercontent.com/56550789/112168062-e2486180-8be8-11eb-9491-611b205c5796.png)
 
 This flow diagram is an example of a Menu item, which will be displayed at the start of the program. The flow is as follows; the Player is shown menu items between 1 and 3. 1 is One player v computer, choice 2 is Two player game and 3 is to QUIT. If Player selects 1 or 2, game code will run. If Player selects 3, program will end. However, if the end user selects any other value, error message is displayed and looped back to Displaying menu until valid input has been entered.
+
+#### Coordinates Validation - Flow Diagram:
+![coordinates](https://user-images.githubusercontent.com/56550789/112180575-94852680-8bf3-11eb-9904-a55d88f6fa30.png)
+
+This flow diagram is an example of a validation phase, when coordinates are entered. The flow is as follows; Game code starts. If Player 1 or Player 2’s turn, they will enter ‘Coordinates to Attack’. Then the program will check, if entered coordinates are Valid. If entered coordinates are invalid, Player is taken back to the ‘Enter Coordinates’ screen to retry. This validation check will continue to loop until valid coordinates has been entered and then the program will continue to the next phase in the flow.
+
+#### Hit or Miss - Flow Diagram
+
 ### 1.5. Ideas and Development Plan
 ### 1.6. Evaluation
