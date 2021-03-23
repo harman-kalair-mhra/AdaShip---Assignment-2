@@ -7,10 +7,10 @@ AdaShip is a clone of the classic ‘Battleship’ game – as a default, AdaShi
 - [1. Challenge Outline](#1-challenge-outline)
 - [1.1. Summary](#-11-summary)
 - [1.2. Features](#-12-implemented-features)
-    + [1.2.1. One player v computer](#121-one-player-v-computer)
-    + [1.2.2. Two player game](#122-two-player-game)
+    + [1.2.1. One player v computer](#-121-one-player-v-computer)
+    + [1.2.2. Two player game](#-122-two-player-game)
 - [1.3. UML Diagram](#-13-uml-diagram)
-- [1.4. Flow Diagrams/Analysis](#-14-flow-diagram/analysis)
+- [1.4. Flow Diagrams/Analysis](#-14-flow-diagram-analysis)
 - [1.5. Ideas and Development Plan](#-15-ideas-and-development-plan)
 - [1.6. Evaluation](#-16-evaluation)
 
@@ -26,13 +26,14 @@ AdaShip is a clone of the classic ‘Battleship’ game – as a default, AdaShi
 #### 1.2.2. Two player
 
 ### 1.3. UML Diagram
-### 1.4. Flow Diagrams/Analysis
+### 1.4. Flow Diagrams-Analysis
+
+In- order to analyse the problem to a full extent, I carried out extensive amount of research from difference resources. For example, I used stack overflow, w3 schools and even created multiple flow diagrams. The purpose of these flow diagrams was to analyse and decompose the problem into smaller sections and build my program accordingly. Below are the Solution Flow Diagrams, I came up with before the development phase of ‘AdaShip’.
+
+#### Player VS Computer - Flow Diagram:
+![player vs computer](https://user-images.githubusercontent.com/56550789/112156767-782abf00-8bde-11eb-9db1-d4878115169e.png)
 
 
-![All diagrams](https://user-images.githubusercontent.com/56550789/112152354-1e27fa80-8bda-11eb-8ced-9c45465105d2.png)
-
-
-
-
+This is flow diagram is an example of how ‘Player vs Computer’ will flow in this AdaShip game. This will begin by the player placing their ships. If all ships are placed the program will continue and give the Computer a chance to place their Ships, which is done randomly. However, if all ships are NOT placed, this will keep looping, until both Player’s and Computer’s ships are placed. Game code starts. If Player’s turn, they will enter ‘Coordinates to Attack’, if Computer’s turn Coordinates are generated automatically. If it’s a ‘HIT’ and ‘All Ships are sunk?’, winner will be displayed and the program will end. However, if ‘Player’ or the ‘Computer’ has not ‘HIT’ any target, this will loop back to switching turns and entering coordinates. If the ‘Player’ did hit but not all ships are sunk, this will also loop back to the ‘Turn’ and ‘Entering coordinates’.
 ### 1.5. Ideas and Development Plan
 ### 1.6. Evaluation
