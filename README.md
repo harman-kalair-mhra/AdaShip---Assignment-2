@@ -1,5 +1,10 @@
 # ADASHIP - Assignment 2
 
+By Harman Kalair
+
+Here is the link to access the Live version [Replit.](https://replit.com/join/yzdwxumd-harmankalair123) 
+
+
 AdaShip is a clone of the classic ‘Battleship’ game – as a default, AdaShip is a two-player, turn based game of sea warfare. You and an opponent each place a number of ships on your own board, and you then alternate turns "firing" torpedoes at each other’s ships. The game is won when one player has destroyed/sunk all of the other player’s ships.
 
 # Table of Contents
@@ -184,3 +189,5 @@ As mentioned previously, my chosen development strategy was agile or iterative. 
 For example, I decided to list out some of the main requirements of the program and began developing algorithms and flow diagrams accordingly. By creating these flow diagrams and algorithms, gave me a head start and a logical view point of the program, thanks to the Agile approach.
 
 ### 1.6. Evaluation
+
+In conclusion, I am pleased with the overall outcome of my program, as I aimed to complete all of the PASS and some MERIT requirements outlined in the project brief. For example, I was able to include a customizable board, meaning the player could play with using any board size. Due to the time constraints and lack of experience in OOP, I was unable to meet all merit and distinction requirements. Therefore, I believe I require more practice in using OOP and understanding each concept such as inheritance and polymorphism to the full extent. The planning phase was a great advantage, when it came to developing. Therefore, the usage of flow diagrams gave me a logical concept of the problem and all I was required to do was, put it into practice. If I were to do this project again, I would conduct more research on OOP and implement concepts such as inheritance and polymorphism to my program.
